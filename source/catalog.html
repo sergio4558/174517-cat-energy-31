@@ -68,7 +68,7 @@
               </li>
             </ul>
           </div>
-          <button class="card__button" type="button">Заказать</button>
+          <button class="card__button button" type="button">Заказать</button>
         </li>
 
       </ul>
@@ -97,7 +97,7 @@
               </li>
             </ul>
           </div>
-          <button class="card__button" type="button">Заказать</button>
+          <button class="card__button button" type="button">Заказать</button>
         </li>
 
       </ul>
@@ -126,7 +126,7 @@
               </li>
             </ul>
           </div>
-          <button class="card__button" type="button">Заказать</button>
+          <button class="card__button button" type="button">Заказать</button>
         </li>
 
       </ul>
@@ -155,7 +155,7 @@
               </li>
             </ul>
           </div>
-          <button class="card__button" type="button">Заказать</button>
+          <button class="card__button button" type="button">Заказать</button>
         </li>
 
       </ul>
@@ -184,7 +184,7 @@
               </li>
             </ul>
           </div>
-          <button class="card__button" type="button">Заказать</button>
+          <button class="card__button button" type="button">Заказать</button>
         </li>
 
       </ul>
@@ -213,7 +213,7 @@
               </li>
             </ul>
           </div>
-          <button class="card__button" type="button">Заказать</button>
+          <button class="card__button button" type="button">Заказать</button>
         </li>
 
       </ul>
@@ -242,14 +242,14 @@
               </li>
             </ul>
           </div>
-          <button class="card__button" type="button">Заказать</button>
+          <button class="card__button button" type="button">Заказать</button>
         </li>
         <li class="catalog__item">
           <div class="others-card">
             <h3 class="card__title">Показать еще 100500 товаров</h3>
-            <br>На самом деле вкусов <br>гораздо больше!</span>
+            <span class="card__content-else">На самом деле вкусов гораздо больше!</span>
           </div>
-          <button class="others-card__button" type="button">Показать все</button>
+          <button class="others-card__button button" type="button">Показать все</button>
         </li>
 
       </ul>
@@ -265,7 +265,7 @@
             <span class="product__volume">1 упаковка (100 г)</span>
             <span class="product__price">200 ₽</span>
           </p>
-          <button class="product__button" type="button">Заказать</button>
+          <button class="product__button button" type="button">Заказать</button>
         </li>
         <li class="additionally-products__item">
           <h3 class="product_title">Питьевая вода</h3>
@@ -273,15 +273,15 @@
             <span class="product__volume">5 литров</span>
             <span class="product__price">50 ₽</span>
           </p>
-          <button class="product__button" type="button">Заказать</button>
+          <button class="product__button button" type="button">Заказать</button>
         </li>
         <li class="additionally-products__item">
-          <h3 class="product_title">молоко</h3>
+          <h3 class="product_title">Молоко</h3>
           <p class="product_content">
             <span class="product__volume">1 литр</span>
             <span class="product__price">100 ₽</span>
           </p>
-          <button class="product__button" type="button">Заказать</button>
+          <button class="product__button button" type="button">Заказать</button>
         </li>
         <li class="additionally-products__item">
           <h3 class="product_title">Витамины</h3>
@@ -289,38 +289,30 @@
             <span class="product__volume">1 упаковка (30 г)</span>
             <span class="product__price">300 ₽</span>
           </p>
-          <button class="product__button" type="button">Заказать</button>
+          <button class="product__button button" type="button">Заказать</button>
         </li>
       </ul>
     </section>
     <p class="promo__desription">Закажите все <br>
       и получите чехол для <br>кота в подарок!</p>
+    <picture>
+      <source width="245" height="288" type="image/png" media="(min-width: 1440px)" srcset="images/cat-bg-desktop@1x.png 1x, images/cat-bg-desktop@2x.png 2x">
+      <source width="707" height="200" type="image/png" media="(min-width: 768px)" srcset="images/cat-bg-tablet@1x.png 1x, images/cat-bg-tablet@2x.png 2x">
+      <img class="cat__bg-image" src="images/cat-bg-mobile@1x.png" srcset="images/cat-bg-mobile@2x.png" width="279" height="290" alt="Cat">
+    </picture>
     <section class="subcription">
-      <h2 class="description__title">Акции и новинки</h2>
+      <h2 class="subcription__title">Акции и новинки</h2>
       <p class="subcription__description">
-        Подписывайтесь на наши новости и не пропустите ни одного предложения
+        Подписывайтесь на наши новости и не<br> пропустите ни одного предложения
       </p>
       <form class="subcription__form" action="#">
         <label>
           <input class="subcription__control" name="email" placeholder="кuklachev@gmail.com" type="email">
         </label>
-        <button class="subcription__button" type="submit">Подписаться</button>
+        <button class="subcription__button button" type="submit">Подписаться</button>
       </form>
-      <picture>
-        <source width="245" height="288" type="image/png" media="(min-width: 1440px)" srcset="images/cat-bg-desktop@1x.png 1x, images/cat-bg-desktop@2x.png 2x">
-        <source width="707" height="200" type="image/png" media="(min-width: 768px)" srcset="images/cat-bg-tablet@1x.png 1x, images/cat-bg-tablet@2x.png 2x">
-        <img class="cat__bg-image" src="images/cat-bg-mobile@1x.png" srcset="images/cat-bg-mobile@2x.png" width="279" height="290" alt="Cat">
-      </picture>
-    </section>
-    <section class="map">
-      <h2 class="visually-hidden">Карта</h2>
-      <picture>
-        <source width="1440" height="400" type="image/png" media="(min-width: 1440px)" srcset="images/location-desktop@1x.png, images/location-desktop@2x.png">
-        <source width="768" height="400" type="image/png" media="(min-width: 768px)" srcset="images/location-tablet@1x.png, images/location-tablet@2x.png">
-        <img class="map__image" src="images/location-mobile@1x.png" srcset="images/location-mobile@2x.png" width="320" height="362" alt="Карта">
-      </picture>
       <div class="container">
-        <div class="map_invitation">
+        <div class="invitation_map">
           <div class="invitation__title">Приглашаем к сотрудничеству дилеров!</div>
           <div class="invitation__adress">
             <p class="adress">ул. Большая
@@ -331,6 +323,16 @@
 
         </div>
       </div>
+
+    </section>
+    <section class="map">
+      <h2 class="visually-hidden">Карта</h2>
+      <picture>
+        <source width="1440" height="400" type="image/png" media="(min-width: 1440px)" srcset="images/location-desktop@1x.png, images/location-desktop@2x.png">
+        <source width="768" height="400" type="image/png" media="(min-width: 768px)" srcset="images/location-tablet@1x.png, images/location-tablet@2x.png">
+        <img class="map__image" src="images/location-mobile@1x.png" srcset="images/location-mobile@2x.png" width="320" height="362" alt="Карта">
+      </picture>
+
     </section>
   </main>
   <footer class="main-footer">
