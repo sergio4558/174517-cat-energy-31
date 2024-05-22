@@ -1,0 +1,45 @@
+
+.experience {
+  background-color: $basic_gray-2;
+}
+
+.experience__header {
+  font-family: "Oswald";
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 40px;
+  text-align: center;
+}
+
+.experience__content {
+  font-family: "Lato";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  color: $spacial_dark-gray-2;
+}
+
+.experience__statistic-card {
+  font-family: "Oswald";
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 24px;
+  text-align: center;
+}
+
+.experience__caption {
+  font-family: "Lato";
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 12px;
+  text-align: center;
+  color: $spacial_dark-gray-2;
+}
+
+.experience__footer--costs {
+  font-family: "Oswald";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+}

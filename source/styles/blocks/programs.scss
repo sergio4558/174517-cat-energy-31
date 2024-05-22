@@ -1,0 +1,29 @@
+.programs__item {
+  background-color: $basic_gray;
+}
+
+
+.programs__header {
+  font-family: "Oswald";
+  font-weight: 400;
+  font-style: normal;
+  font-size: 24px;
+  line-height: 37px;
+}
+
+.programs__content {
+  font-family: "Lato";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  color: $spacial_dark-gray-2;
+}
+
+
+.programs__link {
+  font-family: "Oswald";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+  color: #000000;
+}
